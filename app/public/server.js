@@ -20,7 +20,7 @@ app.get("/home", function(req, res) {
     res.sendFile(path.join(__dirname, "./makereservations.html"));
   });
 
-  app.get("/tables", function(req, res) {
+  app.get("/viewtables", function(req, res) {
     // res.send("Welcome to Hot Restaurant make reservations page")
     res.sendFile(path.join(__dirname, "./viewtables.html"));
   });
