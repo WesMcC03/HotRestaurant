@@ -21,6 +21,8 @@ app.get("/home", function(req, res) {
   });
 
   app.get("/viewtables", function(req, res) {
+
+    // res.send("Welcome to Hot Restaurant make reservations page")
     res.send("Welcome to Hot Restaurant view tables page")
     res.sendFile(path.join(__dirname, "./viewtables.html"));
   });
